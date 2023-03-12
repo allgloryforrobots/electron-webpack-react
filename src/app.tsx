@@ -1,13 +1,17 @@
-import React from 'react';
-import * as ReactDOM from 'react-dom'
-import { App }  from './app/index';
+import React from 'react'
+import { App }  from './app/index'
+import { createRoot } from "react-dom/client"
 
 
-function render() {
-  ReactDOM.render(<App></App>, document.body);
-}
+// на этом слое только работа с подключением библиотеки React
+const rootElement = document.getElementById("root")
+const root = createRoot(rootElement)
 
-render();
+root.render(
+  <React.StrictMode>
+    <App/>
+  </React.StrictMode>
+);
 
 
 

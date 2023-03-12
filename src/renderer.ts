@@ -29,6 +29,4 @@
 // импорт входной точки приложения
 import './app.tsx';
 
-console.log('👋 This message is being logged by "renderer.js", included via webpack');
-
 

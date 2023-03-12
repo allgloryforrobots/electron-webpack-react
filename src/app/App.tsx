@@ -1,6 +1,13 @@
 import React from "react"
 import "./styles/index.less"
 
-export const App = () => {
-    return <h2>Test Page1</h2>;
-};
+import { RouterProvider } from "react-router-dom"
+import router from './Router'
+  
+// только управляющие обертки
+
+const App = () => {
+    return <RouterProvider router={router} />
+}
+
+export default App;
