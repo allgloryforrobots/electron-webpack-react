@@ -27,6 +27,7 @@
  */
 
 import './index.css';
+import './index.less';
 // импорт входной точки для реакта
 import './app.tsx';
 
