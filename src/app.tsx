@@ -1,8 +1,13 @@
 import React from 'react';
-import * as ReactDOM from 'react-dom';
+import * as ReactDOM from 'react-dom'
+import { App }  from './app/index';
+
 
 function render() {
-  ReactDOM.render(<h2>Hello from React!</h2>, document.body);
+  ReactDOM.render(<App></App>, document.body);
 }
 
 render();
+
+
+

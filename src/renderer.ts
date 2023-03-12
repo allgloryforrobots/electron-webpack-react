@@ -26,9 +26,7 @@
  * ```
  */
 
-import './index.css';
-import './index.less';
-// импорт входной точки для реакта
+// импорт входной точки приложения
 import './app.tsx';
 
 console.log('👋 This message is being logged by "renderer.js", included via webpack');
