@@ -27,6 +27,6 @@
  */
 
 // импорт входной точки приложения
-import './app.tsx';
+import './client/app.tsx';
 
 

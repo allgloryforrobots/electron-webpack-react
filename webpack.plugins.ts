@@ -8,7 +8,7 @@ export const plugins = [
   new ForkTsCheckerWebpackPlugin({
     logger: 'webpack-infrastructure',
   }),
-  // отключаем рекламу девтулхов реакта
+  // отключаем рекламу инструментов разработчика React
   new webpack.DefinePlugin({
     '__REACT_DEVTOOLS_GLOBAL_HOOK__': '({ isDisabled: true })'
   }),
